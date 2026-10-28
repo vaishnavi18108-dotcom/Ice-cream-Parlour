@@ -85,21 +85,28 @@ footer {
   }
 
   .home-layout {
-    flex-wrap: wrap;
+   display:flex;
+   flex-decoration:column;
+    flex-wrap: nowrap;
     gap: 10px;
+   padding:0;
+   width:100%;
   }
 
   .main-image {
-    width: 46%;
-    max-width: 46%;
+    width: 100%;
+    max-width: 100%;
+   height:auto;
   }
 
   .logo {
-    width: 46%;
-    max-width: 46%;
+    width: 80%;
+    max-width: 300px;
+   height:auto;
   }
 
   .nav-links {
+   display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -108,6 +115,7 @@ footer {
 
   button {
     font-size: 15px;
+   padding:10px;
   }
 
   .location-form label {
