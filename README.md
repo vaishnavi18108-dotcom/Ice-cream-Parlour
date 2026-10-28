@@ -6,7 +6,7 @@ Users can explore the available offerings, select their location, and contact th
 Technologies Used
 
 - HTML5 – For structuring the website content.
-- CSS3 – For styling, layout, and visual design.
+- CSS – For styling, layout, and visual design.
 
 Project Objective
 
